@@ -1,0 +1,6 @@
+framework module FitSDK {
+  umbrella header "FitSDK.h"
+  export *
+
+  module * { export * }
+}
