@@ -40,8 +40,9 @@ import _SwiftConcurrencyShims
 }
 extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
 }
-@_hasMissingDesignatedInitializers public class FitSDKManager {
+public class FitSDKManager {
   public init()
   public func configure(with referenceId: Swift.String, authToken: Swift.String)
+  public init(with merchantId: Swift.String)
   @objc deinit
 }

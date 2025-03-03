@@ -849,6 +849,33 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FitSDKManager",
+                "printedName": "FitSDK.FitSDKManager",
+                "usr": "s:6FitSDK0A10SDKManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6FitSDK0A10SDKManagerC4withACSS_tcfc",
+            "mangledName": "$s6FitSDK0A10SDKManagerC4withACSS_tcfc",
+            "moduleName": "FitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -858,7 +885,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

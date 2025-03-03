@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6p57VSOLnHksQDXOmBOlHJmV/O0=
+		OO1GhWlBxSfSzNus2F1f5VpWUio=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ava+uExKsGIufNtsDIyfHDHepl8=
+		IXhlAtj0wKWCpDPqm3/9EXunoxs=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ava+uExKsGIufNtsDIyfHDHepl8=
+		IXhlAtj0wKWCpDPqm3/9EXunoxs=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qS+zPp6IrI6uIV/tVi+dRp9hyDI=
+		gbR5+08UIiXhskQNHD69Z4d4NsU=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6p57VSOLnHksQDXOmBOlHJmV/O0=
+		OO1GhWlBxSfSzNus2F1f5VpWUio=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DJ3fgGi9KMBojHkdWVCgd/KSti0=
+		4inWXywYZW4JrRCmSVaiQeBZrxQ=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DJ3fgGi9KMBojHkdWVCgd/KSti0=
+		4inWXywYZW4JrRCmSVaiQeBZrxQ=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qO/Je6hWhWytCCeP2ffvkjQHRwQ=
+		OzStOg0dsTtxdqryEbQnxVyBp8o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyBhDTgbS7g8cDZtq8ZlVIi1YaaEMm/EophQhuz99Lk=
+			31zBzzNVA9Y8KEaFBIQ3xHFb9QT2aM76gMztt0jQ38k=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbvKKl7NBlXLjZ/HpINQArgpWhokRtnRcrS72S5gPlA=
+			GctKYboAjxgeFzfCM9AqjveNYnorJanV6WQQX5iuI10=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbvKKl7NBlXLjZ/HpINQArgpWhokRtnRcrS72S5gPlA=
+			GctKYboAjxgeFzfCM9AqjveNYnorJanV6WQQX5iuI10=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHRCBfT2GKy6uYRFlqfNhEVuJqIY5T9EdzcqOPKp4R0=
+			2UL1a9jaYX01z0csNILjb5aMZ3HrooCB7YibDgwM2j0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyBhDTgbS7g8cDZtq8ZlVIi1YaaEMm/EophQhuz99Lk=
+			31zBzzNVA9Y8KEaFBIQ3xHFb9QT2aM76gMztt0jQ38k=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0aozcLi/rLOTDzH/ALZLRVmc7RAw3HxlCtBUobLmAA=
+			0C3lfjY1z+0NgRC/cMhAy0rwVH+dZzA8aHWsbV9EoK0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0aozcLi/rLOTDzH/ALZLRVmc7RAw3HxlCtBUobLmAA=
+			0C3lfjY1z+0NgRC/cMhAy0rwVH+dZzA8aHWsbV9EoK0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			toGmLxvHPhh9Fy4XQgLVCUmwtAFjZPct7NXINJJbwfM=
+			+4WGTD0y5QPO1+JpJcTE4ZwF7PtcNNHnVDrGOukXDz8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
