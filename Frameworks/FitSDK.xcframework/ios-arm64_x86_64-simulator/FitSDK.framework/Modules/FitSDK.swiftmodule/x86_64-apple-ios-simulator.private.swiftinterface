@@ -41,8 +41,8 @@ import _SwiftConcurrencyShims
 extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
 }
 public class FitSDKManager {
-  public init()
   public func configure(with referenceId: Swift.String, authToken: Swift.String)
   public init(with merchantId: Swift.String)
+  public func configure(on controller: UIKit.UINavigationController? = nil)
   @objc deinit
 }

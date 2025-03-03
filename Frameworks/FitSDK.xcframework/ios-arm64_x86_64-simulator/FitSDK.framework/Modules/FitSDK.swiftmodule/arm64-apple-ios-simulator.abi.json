@@ -798,27 +798,6 @@
         "printedName": "FitSDKManager",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FitSDKManager",
-                "printedName": "FitSDK.FitSDKManager",
-                "usr": "s:6FitSDK0A10SDKManagerC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6FitSDK0A10SDKManagerCACycfc",
-            "mangledName": "$s6FitSDK0A10SDKManagerCACycfc",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(with:authToken:)",
@@ -876,6 +855,41 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FitSDK0A10SDKManagerC9configure2onySo22UINavigationControllerCSg_tF",
+            "mangledName": "$s6FitSDK0A10SDKManagerC9configure2onySo22UINavigationControllerCSg_tF",
+            "moduleName": "FitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1178,6 +1192,13 @@
       "offset": 252,
       "length": 13,
       "value": "\"referenceId\""
+    },
+    {
+      "filePath": "\/Users\/manavprakash\/Desktop\/Personal\/FitSDK\/FitSDK\/Store\/SessionStore.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 15,
+      "value": "\"merchantToken\""
     },
     {
       "filePath": "\/Users\/manavprakash\/Desktop\/Personal\/FitSDK\/FitSDK\/Constants.swift",
