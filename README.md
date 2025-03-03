@@ -33,7 +33,7 @@ Example of fetching steps data:
 ```swift
 import FitSDK
 
-let stepCount = FitSDK.init(with merchantId: String)
+FitSDKManager.init(with : String).configure(on : UINavigationController)
 ```
 
 ## 📄 License  
