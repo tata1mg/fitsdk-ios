@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                = "FitSDK"
-  spec.version             = "0.0.1"
+  spec.version             = "0.0.2"
   spec.summary             = "1MG FitSDK iOS"
   spec.description         = "FitSDK bridges wearables"
   spec.homepage            = "https://www.1mg.com"
