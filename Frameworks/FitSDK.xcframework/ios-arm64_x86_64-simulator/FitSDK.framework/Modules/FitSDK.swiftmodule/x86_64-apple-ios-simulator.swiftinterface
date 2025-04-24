@@ -15,6 +15,7 @@ import _AuthenticationServices_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 @_Concurrency.MainActor @preconcurrency public struct SwiftUIBottomSafeAreaView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -23,5 +24,4 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
   public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
 }
-
 extension FitSDK.SwiftUIBottomSafeAreaView : Swift.Sendable {}
