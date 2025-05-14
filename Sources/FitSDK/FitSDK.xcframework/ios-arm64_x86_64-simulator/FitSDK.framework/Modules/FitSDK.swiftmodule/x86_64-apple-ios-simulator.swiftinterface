@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FitSDK
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AuthenticationServices
+import Combine
+import Foundation
+import HealthKit
+import SafariServices
+@_exported import SpikeSDK
+import Swift
+import SwiftUI
+import UIKit
+import _AuthenticationServices_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct FitSDKData {
+  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String)
+}
+
+@_hasMissingDesignatedInitializers public class FitSDKManager {
+  public static func initialize(with controller: UIKit.UINavigationController?, delegate: any FitSDK.WebViewOpenUrlDelegate, data: FitSDK.FitSDKData)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct SwiftUIBottomSafeAreaView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
+  public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
+}
+public protocol WebViewOpenUrlDelegate {
+  func openUrl(_ url: Foundation.URL)
+}
+extension FitSDK.SwiftUIBottomSafeAreaView : Swift.Sendable {}
