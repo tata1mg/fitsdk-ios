@@ -17,13 +17,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "FitSDKBinary",
+            name: "FitSDK",
             path: "Sources/FitSDK/FitSDK.xcframework"
         ),
         .target(
             name: "FitSDKWrapper",
             dependencies: [
-                "FitSDKBinary",
+                "FitSDK",
                 .product(name: "SpikeSDK", package: "spike-ios-sdk")
             ]
         )

@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7j/fm3Cck7cfmVF66QxbaDVZdNw=
+		GqZmszhy79FfDZyW02SyVzHN6wE=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7FK39NyClHVIRdGbTWv4GRNnDFY=
+		M78JjFCjA5qzpsCA+ieReMEAd9c=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7FK39NyClHVIRdGbTWv4GRNnDFY=
+		M78JjFCjA5qzpsCA+ieReMEAd9c=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fW6qV576It86hjyHwempWIaWuVE=
+		dt+a6Ry0fvTa7ixJu8AqqVUwx0M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,22 +35,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7j/fm3Cck7cfmVF66QxbaDVZdNw=
+			GqZmszhy79FfDZyW02SyVzHN6wE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p4BL76Rw6+BFr0Eye9lKceltt4ZFvf+JwHY5eRqSPPg=
+			29ft5ueYsGIqrOBIwuPvnjQ+4xMu+1nHtfYWynhTs+A=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7FK39NyClHVIRdGbTWv4GRNnDFY=
+			M78JjFCjA5qzpsCA+ieReMEAd9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkGBVkiIm9+FIAq52GGIl0H3QGkuT5j4SC+Q1N2lV5g=
+			/7yc6zeaBXuTVucop6HQq4+BEDjq4WtpdUrgYkZeta0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -68,22 +68,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7FK39NyClHVIRdGbTWv4GRNnDFY=
+			M78JjFCjA5qzpsCA+ieReMEAd9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkGBVkiIm9+FIAq52GGIl0H3QGkuT5j4SC+Q1N2lV5g=
+			/7yc6zeaBXuTVucop6HQq4+BEDjq4WtpdUrgYkZeta0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fW6qV576It86hjyHwempWIaWuVE=
+			dt+a6Ry0fvTa7ixJu8AqqVUwx0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIBUvXsufKC46q/BdciLuxBobIliqVS78Ko9O78Np2k=
+			GjA/UtkF6W438mVb/u5Pcg+yMYVirl9eNZCo8AmLqtI=
 			</data>
 		</dict>
 	</dict>

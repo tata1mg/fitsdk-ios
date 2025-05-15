@@ -16,58 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
         "declKind": "Import",
         "moduleName": "FitSDK"
       },
@@ -79,20 +29,62 @@
         "moduleName": "FitSDK"
       },
       {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "FitSDKHandlerDelegate",
+        "printedName": "FitSDKHandlerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fitSDKHandlerDidRequestOpen",
+            "printedName": "fitSDKHandlerDidRequestOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FitSDK0A18SDKHandlerDelegateP03fitC14DidRequestOpenyy10Foundation3URLVF",
+            "mangledName": "$s6FitSDK0A18SDKHandlerDelegateP03fitC14DidRequestOpenyy10Foundation3URLVF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.FitSDKHandlerDelegate>",
+            "sugared_genericSig": "<Self where Self : FitSDK.FitSDKHandlerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6FitSDK0A18SDKHandlerDelegateP",
+        "mangledName": "$s6FitSDK0A18SDKHandlerDelegateP",
         "moduleName": "FitSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -107,10 +99,13 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "FitSDK"
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -134,31 +129,26 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FitSDKData",
-        "printedName": "FitSDKData",
+        "name": "UserDefaultsProtocol",
+        "printedName": "UserDefaultsProtocol",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(authToken:visitorId:affiliateSource:)",
+            "kind": "Function",
+            "name": "value",
+            "printedName": "value(forKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FitSDKData",
-                "printedName": "FitSDK.FitSDKData",
-                "usr": "s:6FitSDK0A7SDKDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -167,23 +157,676 @@
                 "usr": "s:SS"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSourceACSS_S2Stcfc",
-            "mangledName": "$s6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSourceACSS_S2Stcfc",
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)valueForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP5value6forKeyypSgSS_tF",
             "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)stringForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP6string6forKeySSSgSS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bool",
+            "printedName": "bool(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)boolForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP4bool6forKeySbSS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)setValue:forKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP8setValue_6forKeyyypSg_SStF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObject",
+            "printedName": "removeObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)removeObjectForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP12removeObject6forKeyySS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "integer",
+            "printedName": "integer(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)integerForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP7integer6forKeySiSS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "double",
+            "printedName": "double(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)doubleForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP6double6forKeySdSS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionary",
+            "printedName": "dictionary(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)dictionaryForKey:",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP10dictionary6forKeySDySSypGSgSS_tF",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
+            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol",
+        "mangledName": "$s6FitSDK20UserDefaultsProtocolP",
+        "moduleName": "FitSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObjectStore",
+        "printedName": "ObjectStore",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:store:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjectStore",
+                "printedName": "FitSDK.ObjectStore<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:6FitSDK11ObjectStoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsProtocol",
+                "printedName": "any FitSDK.UserDefaultsProtocol",
+                "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6FitSDK11ObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
+            "mangledName": "$s6FitSDK11ObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvp",
+            "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvp",
+            "moduleName": "FitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvg",
+                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvg",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvs",
+                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvs",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvM",
+                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvM",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:6FitSDK0A7SDKDataV",
-        "mangledName": "$s6FitSDK0A7SDKDataV",
+        "declKind": "Class",
+        "usr": "s:6FitSDK11ObjectStoreC",
+        "mangledName": "$s6FitSDK11ObjectStoreC",
         "moduleName": "FitSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomObjectStore",
+        "printedName": "CustomObjectStore",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:store:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomObjectStore",
+                "printedName": "FitSDK.CustomObjectStore<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:6FitSDK17CustomObjectStoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsProtocol",
+                "printedName": "any FitSDK.UserDefaultsProtocol",
+                "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6FitSDK17CustomObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
+            "mangledName": "$s6FitSDK17CustomObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
+            "moduleName": "FitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvp",
+            "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvp",
+            "moduleName": "FitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvg",
+                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvg",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvs",
+                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvs",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvM",
+                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvM",
+                "moduleName": "FitSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FitSDK17CustomObjectStoreC",
+        "mangledName": "$s6FitSDK17CustomObjectStoreC",
+        "moduleName": "FitSDK",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
         ],
         "conformances": [
           {
@@ -228,8 +871,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
@@ -238,26 +881,45 @@
       },
       {
         "kind": "Import",
-        "name": "SpikeSDK",
-        "printedName": "SpikeSDK",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "Exported",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
         "declKind": "Import",
         "moduleName": "FitSDK"
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FitSDK"
       },
@@ -303,23 +965,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UINavigationController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
               },
               {
                 "kind": "TypeNominal",
-                "name": "WebViewOpenUrlDelegate",
-                "printedName": "any FitSDK.WebViewOpenUrlDelegate",
-                "usr": "s:6FitSDK22WebViewOpenUrlDelegateP"
+                "name": "Optional",
+                "printedName": "(any FitSDK.FitSDKHandlerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FitSDKHandlerDelegate",
+                    "printedName": "any FitSDK.FitSDKHandlerDelegate",
+                    "usr": "s:6FitSDK0A18SDKHandlerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -329,8 +991,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FitSDK0A10SDKManagerC10initialize4with8delegate4dataySo22UINavigationControllerCSg_AA22WebViewOpenUrlDelegate_pAA0A7SDKDataVtFZ",
-            "mangledName": "$s6FitSDK0A10SDKManagerC10initialize4with8delegate4dataySo22UINavigationControllerCSg_AA22WebViewOpenUrlDelegate_pAA0A7SDKDataVtFZ",
+            "usr": "s:6FitSDK0A10SDKManagerC10initialize4with8delegate4dataySo22UINavigationControllerC_AA0A18SDKHandlerDelegate_pSgAA0A7SDKDataVtFZ",
+            "mangledName": "$s6FitSDK0A10SDKManagerC10initialize4with8delegate4dataySo22UINavigationControllerC_AA0A18SDKHandlerDelegate_pSgAA0A7SDKDataVtFZ",
             "moduleName": "FitSDK",
             "static": true,
             "declAttributes": [
@@ -367,13 +1029,30 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
       },
       {
         "kind": "Import",
@@ -384,8 +1063,55 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
@@ -582,6 +1308,17 @@
       },
       {
         "kind": "Import",
+        "name": "SpikeSDK",
+        "printedName": "SpikeSDK",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -599,52 +1336,137 @@
       },
       {
         "kind": "Import",
-        "name": "AuthenticationServices",
-        "printedName": "AuthenticationServices",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "FitSDK"
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
-        "name": "WebViewOpenUrlDelegate",
-        "printedName": "WebViewOpenUrlDelegate",
+        "name": "FitSDKData",
+        "printedName": "FitSDKData",
         "children": [
           {
-            "kind": "Function",
-            "name": "openUrl",
-            "printedName": "openUrl(_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authToken:visitorId:affiliateSource:referenceId:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "FitSDKData",
+                "printedName": "FitSDK.FitSDKData",
+                "usr": "s:6FitSDK0A7SDKDataV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:6FitSDK22WebViewOpenUrlDelegateP04openF0yy10Foundation3URLVF",
-            "mangledName": "$s6FitSDK22WebViewOpenUrlDelegateP04openF0yy10Foundation3URLVF",
+            "declKind": "Constructor",
+            "usr": "s:6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSource09referenceG0ACSS_S3SSgtcfc",
+            "mangledName": "$s6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSource09referenceG0ACSS_S3SSgtcfc",
             "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.WebViewOpenUrlDelegate>",
-            "sugared_genericSig": "<Self where Self : FitSDK.WebViewOpenUrlDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Protocol",
-        "usr": "s:6FitSDK22WebViewOpenUrlDelegateP",
-        "mangledName": "$s6FitSDK22WebViewOpenUrlDelegateP",
+        "declKind": "Struct",
+        "usr": "s:6FitSDK0A7SDKDataV",
+        "mangledName": "$s6FitSDK0A7SDKDataV",
         "moduleName": "FitSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaults",
+        "printedName": "UserDefaults",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSUserDefaults",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSUserDefaults",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Escapable",
@@ -654,48 +1476,60 @@
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UserDefaultsProtocol",
+            "printedName": "UserDefaultsProtocol",
+            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol",
+            "mangledName": "$s6FitSDK20UserDefaultsProtocolP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       }
     ],
@@ -703,487 +1537,501 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 207,
-      "length": 4,
-      "value": "0.87"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 220,
-      "length": 4,
-      "value": "0.89"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 232,
-      "length": 4,
-      "value": "0.92"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 293,
-      "length": 4,
-      "value": "0.33"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 305,
-      "length": 4,
-      "value": "0.26"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 368,
-      "length": 4,
-      "value": "0.77"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 381,
-      "length": 4,
-      "value": "0.06"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 393,
-      "length": 4,
-      "value": "0.12"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableEntryView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 303,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 176,
-      "length": 16,
-      "value": "\"v1\/device\/link\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 26,
-      "value": "\"v1\/device\/last_sync_date\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 315,
-      "length": 21,
-      "value": "\"v1\/device\/signature\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 20,
-      "value": "\"v1\/device\/listings\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 31,
-      "value": "\"https:\/\/dioneapi.1mg.com\/api\/\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 518,
-      "length": 39,
-      "value": "\"https:\/\/dione.1mg.com?merchant_token=\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 624,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 681,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 17,
-      "value": "\"X-Authorization\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 797,
-      "length": 15,
-      "value": "\"authorization\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 853,
-      "length": 18,
-      "value": "\"X-HTML-CanRender\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 911,
-      "length": 14,
-      "value": "\"X-Access-Key\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 23,
-      "value": "\"1mg_client_access_key\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1032,
-      "length": 20,
-      "value": "\"x-affiliate-source\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1101,
-      "length": 19,
-      "value": "\"tata_aig_vitality\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 5,
-      "value": "\"1mg\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 13,
-      "value": "\"device-info\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 12,
-      "value": "\"visitor-id\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1309,
-      "length": 14,
-      "value": "\"X-OS-Version\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1359,
-      "length": 13,
-      "value": "\"X-Device-Id\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1411,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1450,
-      "length": 12,
-      "value": "\"x-platform\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1497,
-      "length": 12,
-      "value": "\"iOS-19.0.0\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1572,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1608,
-      "length": 5,
-      "value": "\"all\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1646,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1726,
-      "length": 18,
-      "value": "\"affiliate_source\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1780,
-      "length": 12,
-      "value": "\"visitor_id\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1828,
-      "length": 12,
-      "value": "\"auth_token\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1871,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1907,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1987,
-      "length": 17,
-      "value": "\"affiliateSource\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2040,
-      "length": 11,
-      "value": "\"authToken\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2087,
-      "length": 11,
-      "value": "\"visitorId\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2159,
-      "length": 11,
-      "value": "\"onemg-fit\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2202,
-      "length": 7,
-      "value": "\"https\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 340,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/SwiftUIViews\/WearableView.swift",
-      "kind": "StringLiteral",
-      "offset": 434,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 419,
-      "length": 18,
-      "value": "\"background_image\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 14,
-      "value": "\"footer_image\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 2767,
-      "length": 9,
-      "value": "\"HIT_API\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 2790,
-      "length": 14,
-      "value": "\"SDK_FUNCTION\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 2867,
-      "length": 7,
-      "value": "\"apple\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 2894,
-      "length": 11,
-      "value": "\"googlefit\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/WearableDataResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 2922,
-      "length": 8,
-      "value": "\"fitbit\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/ConnectViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/ConnectViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 384,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/LinkDeviceResponse.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 5,
       "value": "\"New\""
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/LinkDeviceResponse.swift",
       "kind": "StringLiteral",
       "offset": 485,
       "length": 10,
       "value": "\"Existing\""
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/LinkDeviceResponse.swift",
       "kind": "StringLiteral",
       "offset": 1301,
       "length": 12,
       "value": "\"expires_in\""
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 18,
+      "value": "\"background_image\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 14,
+      "value": "\"footer_image\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 9,
+      "value": "\"HIT_API\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2790,
+      "length": 14,
+      "value": "\"SDK_FUNCTION\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2867,
+      "length": 7,
+      "value": "\"apple\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2894,
+      "length": 11,
+      "value": "\"googlefit\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Models\/WearableDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2922,
+      "length": 8,
+      "value": "\"fitbit\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/WearableViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 338,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/WearableViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 379,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/WearableViewModel.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/WearableViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 663,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/WearableViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 713,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Manager\/SpikeManager.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/ConnectViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/ViewModels\/ConnectViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 403,
+      "offset": 176,
+      "length": 16,
+      "value": "\"v1\/device\/link\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 26,
+      "value": "\"v1\/device\/last_sync_date\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 21,
+      "value": "\"v1\/device\/signature\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 20,
+      "value": "\"v1\/device\/listings\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 31,
+      "value": "\"https:\/\/dioneapi.1mg.com\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 39,
+      "value": "\"https:\/\/dione.1mg.com?merchant_token=\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 17,
+      "value": "\"X-Authorization\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 15,
+      "value": "\"authorization\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 18,
+      "value": "\"X-HTML-CanRender\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 14,
+      "value": "\"X-Access-Key\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 23,
+      "value": "\"1mg_client_access_key\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 20,
+      "value": "\"x-affiliate-source\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 19,
+      "value": "\"tata_aig_vitality\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1169,
+      "length": 5,
+      "value": "\"1mg\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 13,
+      "value": "\"device-info\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 12,
+      "value": "\"visitor-id\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1309,
+      "length": 14,
+      "value": "\"X-OS-Version\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1359,
+      "length": 13,
+      "value": "\"X-Device-Id\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1411,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 12,
+      "value": "\"x-platform\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 12,
+      "value": "\"iOS-19.0.0\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1608,
+      "length": 5,
+      "value": "\"all\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1646,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 13,
+      "value": "\"referenceId\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 18,
+      "value": "\"affiliate_source\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 12,
+      "value": "\"visitor_id\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1879,
+      "length": 12,
+      "value": "\"auth_token\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1922,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1958,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 17,
+      "value": "\"affiliateSource\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 11,
+      "value": "\"authToken\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2138,
+      "length": 11,
+      "value": "\"visitorId\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 13,
+      "value": "\"referenceId\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 11,
+      "value": "\"onemg-fit\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableView.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Common\/GlowGradientBackground.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Common\/GlowGradientBackground.swift",
       "kind": "IntegerLiteral",
       "offset": 1981,
       "length": 3,
       "value": "850"
     },
     {
-      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Common\/GlowGradientBackground.swift",
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Common\/GlowGradientBackground.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 3,
       "value": "850"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableEntryView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 308,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "0.87"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 220,
+      "length": 4,
+      "value": "0.89"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 232,
+      "length": 4,
+      "value": "0.92"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 293,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 305,
+      "length": 4,
+      "value": "0.26"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "0.77"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 381,
+      "length": 4,
+      "value": "0.06"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/SwiftUIViews\/WearableCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 393,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode\/FitSDK\/Manager\/SpikeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
