@@ -58,14 +58,6 @@ public enum FontSize {
   case thirtySix
   case custom(CoreFoundation.CGFloat)
 }
-@_Concurrency.MainActor @preconcurrency public struct SwiftUIBottomSafeAreaView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init()
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
-  public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
-}
 @objc public protocol UserDefaultsProtocol {
   @objc func value(forKey key: Swift.String) -> Any?
   @objc func string(forKey defaultName: Swift.String) -> Swift.String?
@@ -77,6 +69,14 @@ public enum FontSize {
   @objc func dictionary(forKey defaultName: Swift.String) -> [Swift.String : Any]?
 }
 extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
+}
+@_Concurrency.MainActor @preconcurrency public struct SwiftUIBottomSafeAreaView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
+  public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
 }
 @propertyWrapper public class ObjectStore<T> {
   public init(key: Swift.String, store: any FitSDK.UserDefaultsProtocol)
