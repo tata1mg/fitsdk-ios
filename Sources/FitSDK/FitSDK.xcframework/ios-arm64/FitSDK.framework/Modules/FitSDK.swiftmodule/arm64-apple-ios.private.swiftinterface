@@ -15,6 +15,9 @@ import _AuthenticationServices_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct FitSDKData {
+  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, referenceId: Swift.String? = nil)
+}
 public protocol FitSDKHandlerDelegate : AnyObject {
   func fitSDKHandlerDidRequestOpen(_ url: Foundation.URL)
 }
@@ -29,6 +32,43 @@ public protocol FitSDKHandlerDelegate : AnyObject {
   @objc func dictionary(forKey defaultName: Swift.String) -> [Swift.String : Any]?
 }
 extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
+}
+extension SwiftUICore.Font {
+  public init(uiFont: UIKit.UIFont)
+}
+extension UIKit.UIFont {
+  public class func cabinetRegular(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func cabinetMedium(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func cabinetExtraBold(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func cabinetBold(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func figtreeRegular(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func figtreeMedium(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func figtreeSemiBold(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func figtreeBold(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public class func figtreeExtraBold(ofSize size: FitSDK.FontSize) -> UIKit.UIFont
+  public static func loadAllFonts()
+}
+public enum FontSize {
+  case ten
+  case eleven
+  case twelve
+  case thirteen
+  case fourteen
+  case fifteen
+  case sixteen
+  case seventeen
+  case eighteen
+  case nineteen
+  case twenty
+  case twentyOne
+  case twentyTwo
+  case twentyThree
+  case twentyFour
+  case twentySix
+  case twentyEight
+  case thirtyTwo
+  case thirtySix
+  case custom(CoreFoundation.CGFloat)
 }
 @propertyWrapper public class ObjectStore<T> {
   public init(key: Swift.String, store: any FitSDK.UserDefaultsProtocol)
@@ -50,7 +90,6 @@ extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
   public static func initialize(with controller: UIKit.UINavigationController, delegate: (any FitSDK.FitSDKHandlerDelegate)?, data: FitSDK.FitSDKData)
   @objc deinit
 }
-
 @_Concurrency.MainActor @preconcurrency public struct SwiftUIBottomSafeAreaView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -59,7 +98,5 @@ extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
   @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
   public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
 }
-public struct FitSDKData {
-  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, referenceId: Swift.String? = nil)
-}
+
 extension FitSDK.SwiftUIBottomSafeAreaView : Swift.Sendable {}

@@ -4,17 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>CabinetGrotesk-Bold.otf</key>
+		<data>
+		VT9QPFaaFdXvAS0r8btCrOpOo24=
+		</data>
+		<key>CabinetGrotesk-Extrabold.otf</key>
+		<data>
+		YjhLTIOlWu0m1O2MavvNKe00s9M=
+		</data>
+		<key>CabinetGrotesk-Medium.otf</key>
+		<data>
+		QqA9WYdnbtPbqIyKX7GbN1QYEjI=
+		</data>
+		<key>CabinetGrotesk-Regular.otf</key>
+		<data>
+		9EZPTMCkxixqMxk4qu/bpQUKJvc=
+		</data>
+		<key>Figtree-Bold.ttf</key>
+		<data>
+		q3hNZUGzrIbjrV6KCUHoDxhEmD8=
+		</data>
+		<key>Figtree-ExtraBold.ttf</key>
+		<data>
+		OZciKYYOXsN5Un9th7Wv8hphg6c=
+		</data>
+		<key>Figtree-Medium.ttf</key>
+		<data>
+		q7I+1EOy7o9R4f6EPIBVvHY1ojg=
+		</data>
+		<key>Figtree-Regular.ttf</key>
+		<data>
+		+RSNGSqL9LmE2C9g9liurdLBM9M=
+		</data>
+		<key>Figtree-SemiBold.ttf</key>
+		<data>
+		IbCaAAZcWAACG20slpyDSW99TQY=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		2TEAW5nBFXlZrmvVUg/ogsLkH0A=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GqZmszhy79FfDZyW02SyVzHN6wE=
+		ep6cYIXunWAtRF/UH9l7PB2HbFY=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		M78JjFCjA5qzpsCA+ieReMEAd9c=
+		7N/nAyF90ZjPbIb8X+HAOurENZY=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,43 +58,94 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		M78JjFCjA5qzpsCA+ieReMEAd9c=
+		7N/nAyF90ZjPbIb8X+HAOurENZY=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dt+a6Ry0fvTa7ixJu8AqqVUwx0M=
+		PnP39QqDJAXnbXkGiSyEUocsCIs=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>CabinetGrotesk-Bold.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GqZmszhy79FfDZyW02SyVzHN6wE=
-			</data>
 			<key>hash2</key>
 			<data>
-			29ft5ueYsGIqrOBIwuPvnjQ+4xMu+1nHtfYWynhTs+A=
+			86oM6a9QVAjZoEIFFcbCbcIVEwtWrMBX0ks7/CzaKS4=
+			</data>
+		</dict>
+		<key>CabinetGrotesk-Extrabold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RmIwkz382lhAbMO72z4/u4jGIYghaBVlzYiO/Baxs4k=
+			</data>
+		</dict>
+		<key>CabinetGrotesk-Medium.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WfAWF9hgkNkk7xxl1545AsrZGa+zBAFzr/sxMUEYsPM=
+			</data>
+		</dict>
+		<key>CabinetGrotesk-Regular.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iTJYvBNtfsdIczP6RRH3xXlPatfHfu4kN4gcbfmFwLE=
+			</data>
+		</dict>
+		<key>Figtree-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0xT93tcJ9NImdUXJ5ZvitrANFUXNjHMtZvYX1+AWx4w=
+			</data>
+		</dict>
+		<key>Figtree-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vfa8FIfl3f1GZYAUGSS0Yrt2REPpWtALlGDPdy2if60=
+			</data>
+		</dict>
+		<key>Figtree-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kfyYmNIrQcILoo3AdhNImUrL9QFYMK11eJ9M/kEEMHc=
+			</data>
+		</dict>
+		<key>Figtree-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zPHMwyZxxvSOAn9DpRUAQsdMW/plVRC5zH0NXfo4uEk=
+			</data>
+		</dict>
+		<key>Figtree-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i1Sjpjv7lzz2UJdHZHFcplZ3f04cX2oaAhcR5qbUUO8=
+			</data>
+		</dict>
+		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Eh69hAJ7v6tcNO+PEIat9RqNjJ+zlkxaBOHODXzHBxc=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M78JjFCjA5qzpsCA+ieReMEAd9c=
-			</data>
 			<key>hash2</key>
 			<data>
-			/7yc6zeaBXuTVucop6HQq4+BEDjq4WtpdUrgYkZeta0=
+			R1u18yvvWqAEtAG+telvss3iKZgXMpi+jlP3zxNT4hU=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yhcixw+nvYGycoPsGwMiTBSpzWg=
-			</data>
 			<key>hash2</key>
 			<data>
 			lIwiPfvFyZWiuBNqRkKYYr5O5tIoPsubduqeG2IPyYE=
@@ -66,24 +153,16 @@
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M78JjFCjA5qzpsCA+ieReMEAd9c=
-			</data>
 			<key>hash2</key>
 			<data>
-			/7yc6zeaBXuTVucop6HQq4+BEDjq4WtpdUrgYkZeta0=
+			R1u18yvvWqAEtAG+telvss3iKZgXMpi+jlP3zxNT4hU=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dt+a6Ry0fvTa7ixJu8AqqVUwx0M=
-			</data>
 			<key>hash2</key>
 			<data>
-			GjA/UtkF6W438mVb/u5Pcg+yMYVirl9eNZCo8AmLqtI=
+			fY95GwqHUEmdZW6elbU6PxqEnaKeiHwvBFyxR1gDxO4=
 			</data>
 		</dict>
 	</dict>
