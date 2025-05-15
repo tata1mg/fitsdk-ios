@@ -60,12 +60,9 @@ public enum FontSize {
   @_Concurrency.MainActor @preconcurrency public static func safeAreaBottomInset() -> CoreFoundation.CGFloat
   public typealias Body = @_opaqueReturnTypeOf("$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp", 0) __
 }
+
 public protocol FitSDKHandlerDelegate : AnyObject {
   func fitSDKHandlerDidRequestOpen(_ url: Foundation.URL)
-}
-
-public struct FitSDKData {
-  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, referenceId: Swift.String? = nil)
 }
 @objc public protocol UserDefaultsProtocol {
   @objc func value(forKey key: Swift.String) -> Any?
@@ -98,5 +95,8 @@ extension Foundation.UserDefaults : FitSDK.UserDefaultsProtocol {
 @_hasMissingDesignatedInitializers public class FitSDKManager {
   public static func initialize(with controller: UIKit.UINavigationController, delegate: (any FitSDK.FitSDKHandlerDelegate)?, data: FitSDK.FitSDKData)
   @objc deinit
+}
+public struct FitSDKData {
+  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, referenceId: Swift.String? = nil)
 }
 extension FitSDK.SwiftUIBottomSafeAreaView : Swift.Sendable {}
