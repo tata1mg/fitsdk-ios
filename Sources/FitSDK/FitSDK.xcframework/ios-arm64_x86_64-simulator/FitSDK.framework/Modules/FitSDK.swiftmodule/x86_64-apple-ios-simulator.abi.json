@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
@@ -42,174 +42,104 @@
         "moduleName": "FitSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "SwiftUIBottomSafeAreaView",
-        "printedName": "SwiftUIBottomSafeAreaView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SwiftUIBottomSafeAreaView",
-                "printedName": "FitSDK.SwiftUIBottomSafeAreaView",
-                "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewVACycfc",
-            "mangledName": "$s6FitSDK25SwiftUIBottomSafeAreaViewVACycfc",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp",
-            "mangledName": "$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvp",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvg",
-                "mangledName": "$s6FitSDK25SwiftUIBottomSafeAreaViewV4bodyQrvg",
-                "moduleName": "FitSDK",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "safeAreaBottomInset",
-            "printedName": "safeAreaBottomInset()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewV04safeF11BottomInset14CoreFoundation7CGFloatVyFZ",
-            "mangledName": "$s6FitSDK25SwiftUIBottomSafeAreaViewV04safeF11BottomInset12CoreGraphics7CGFloatVyFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6FitSDK25SwiftUIBottomSafeAreaViewV",
-        "mangledName": "$s6FitSDK25SwiftUIBottomSafeAreaViewV",
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -382,6 +312,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FitSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -395,10 +342,7 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "FitSDK"
       },
       {
         "kind": "Import",
@@ -422,337 +366,9 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "UserDefaultsProtocol",
-        "printedName": "UserDefaultsProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "value",
-            "printedName": "value(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)valueForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP5value6forKeyypSgSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "string",
-            "printedName": "string(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)stringForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP6string6forKeySSSgSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "bool",
-            "printedName": "bool(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)boolForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP4bool6forKeySbSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setValue",
-            "printedName": "setValue(_:forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)setValue:forKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP8setValue_6forKeyyypSg_SStF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeObject",
-            "printedName": "removeObject(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)removeObjectForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP12removeObject6forKeyySS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "integer",
-            "printedName": "integer(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)integerForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP7integer6forKeySiSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "double",
-            "printedName": "double(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)doubleForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP6double6forKeySdSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dictionary",
-            "printedName": "dictionary(forKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol(im)dictionaryForKey:",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP10dictionary6forKeySDySSypGSgSS_tF",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : FitSDK.UserDefaultsProtocol>",
-            "sugared_genericSig": "<Self where Self : FitSDK.UserDefaultsProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol",
-        "mangledName": "$s6FitSDK20UserDefaultsProtocolP",
-        "moduleName": "FitSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
@@ -767,372 +383,6 @@
         "moduleName": "FitSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ObjectStore",
-        "printedName": "ObjectStore",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(key:store:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ObjectStore",
-                "printedName": "FitSDK.ObjectStore<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:6FitSDK11ObjectStoreC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserDefaultsProtocol",
-                "printedName": "any FitSDK.UserDefaultsProtocol",
-                "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6FitSDK11ObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
-            "mangledName": "$s6FitSDK11ObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0>",
-            "sugared_genericSig": "<T>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "wrappedValue",
-            "printedName": "wrappedValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "τ_0_0?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvp",
-            "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvp",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvg",
-                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvg",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0>",
-                "sugared_genericSig": "<T>",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvs",
-                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvs",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0>",
-                "sugared_genericSig": "<T>",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK11ObjectStoreC12wrappedValuexSgvM",
-                "mangledName": "$s6FitSDK11ObjectStoreC12wrappedValuexSgvM",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0>",
-                "sugared_genericSig": "<T>",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6FitSDK11ObjectStoreC",
-        "mangledName": "$s6FitSDK11ObjectStoreC",
-        "moduleName": "FitSDK",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<T>",
-        "declAttributes": [
-          "AccessControl",
-          "PropertyWrapper"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CustomObjectStore",
-        "printedName": "CustomObjectStore",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(key:store:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CustomObjectStore",
-                "printedName": "FitSDK.CustomObjectStore<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:6FitSDK17CustomObjectStoreC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserDefaultsProtocol",
-                "printedName": "any FitSDK.UserDefaultsProtocol",
-                "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6FitSDK17CustomObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
-            "mangledName": "$s6FitSDK17CustomObjectStoreC3key5storeACyxGSS_AA20UserDefaultsProtocol_ptcfc",
-            "moduleName": "FitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "wrappedValue",
-            "printedName": "wrappedValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "τ_0_0?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvp",
-            "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvp",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvg",
-                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvg",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvs",
-                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvs",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FitSDK17CustomObjectStoreC12wrappedValuexSgvM",
-                "mangledName": "$s6FitSDK17CustomObjectStoreC12wrappedValuexSgvM",
-                "moduleName": "FitSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6FitSDK17CustomObjectStoreC",
-        "mangledName": "$s6FitSDK17CustomObjectStoreC",
-        "moduleName": "FitSDK",
-        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-        "declAttributes": [
-          "AccessControl",
-          "PropertyWrapper"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1241,8 +491,28 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FitSDK",
         "declAttributes": [
@@ -1332,924 +602,6 @@
         "moduleName": "FitSDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AuthenticationServices",
-        "printedName": "AuthenticationServices",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FitSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FontSize",
-        "printedName": "FontSize",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "ten",
-            "printedName": "ten",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO3tenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO3tenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "eleven",
-            "printedName": "eleven",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO6elevenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO6elevenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twelve",
-            "printedName": "twelve",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO6twelveyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO6twelveyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "thirteen",
-            "printedName": "thirteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO8thirteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO8thirteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "fourteen",
-            "printedName": "fourteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO8fourteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO8fourteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "fifteen",
-            "printedName": "fifteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO7fifteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO7fifteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "sixteen",
-            "printedName": "sixteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO7sixteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO7sixteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "seventeen",
-            "printedName": "seventeen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9seventeenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9seventeenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "eighteen",
-            "printedName": "eighteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO8eighteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO8eighteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "nineteen",
-            "printedName": "nineteen",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO8nineteenyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO8nineteenyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twenty",
-            "printedName": "twenty",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO6twentyyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO6twentyyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentyOne",
-            "printedName": "twentyOne",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9twentyOneyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9twentyOneyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentyTwo",
-            "printedName": "twentyTwo",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9twentyTwoyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9twentyTwoyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentyThree",
-            "printedName": "twentyThree",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO11twentyThreeyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO11twentyThreeyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentyFour",
-            "printedName": "twentyFour",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO10twentyFouryA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO10twentyFouryA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentySix",
-            "printedName": "twentySix",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9twentySixyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9twentySixyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "twentyEight",
-            "printedName": "twentyEight",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO11twentyEightyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO11twentyEightyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "thirtyTwo",
-            "printedName": "thirtyTwo",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9thirtyTwoyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9thirtyTwoyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "thirtySix",
-            "printedName": "thirtySix",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FontSize",
-                    "printedName": "FitSDK.FontSize",
-                    "usr": "s:6FitSDK8FontSizeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO9thirtySixyA2CmF",
-            "mangledName": "$s6FitSDK8FontSizeO9thirtySixyA2CmF",
-            "moduleName": "FitSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "custom",
-            "printedName": "custom",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FitSDK.FontSize.Type) -> (CoreGraphics.CGFloat) -> FitSDK.FontSize",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(CoreGraphics.CGFloat) -> FitSDK.FontSize",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CGFloat",
-                        "printedName": "CoreGraphics.CGFloat",
-                        "usr": "s:14CoreFoundation7CGFloatV"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FitSDK.FontSize.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FontSize",
-                        "printedName": "FitSDK.FontSize",
-                        "usr": "s:6FitSDK8FontSizeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FitSDK8FontSizeO6customyAC14CoreFoundation7CGFloatVcACmF",
-            "mangledName": "$s6FitSDK8FontSizeO6customyAC12CoreGraphics7CGFloatVcACmF",
-            "moduleName": "FitSDK"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6FitSDK8FontSizeO",
-        "mangledName": "$s6FitSDK8FontSizeO",
-        "moduleName": "FitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "UserDefaults",
         "printedName": "UserDefaults",
@@ -2332,488 +684,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UserDefaultsProtocol",
-            "printedName": "UserDefaultsProtocol",
-            "usr": "c:@M@FitSDK@objc(pl)UserDefaultsProtocol",
-            "mangledName": "$s6FitSDK20UserDefaultsProtocolP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Font",
-        "printedName": "Font",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(uiFont:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Font",
-                "printedName": "SwiftUI.Font",
-                "usr": "s:7SwiftUI4FontV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI4FontV6FitSDKE02uiC0ACSo6UIFontC_tcfc",
-            "mangledName": "$s7SwiftUI4FontV6FitSDKE02uiC0ACSo6UIFontC_tcfc",
-            "moduleName": "FitSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI4FontV",
-        "mangledName": "$s7SwiftUI4FontV",
-        "moduleName": "SwiftUICore",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Frozen",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIFont",
-        "printedName": "UIFont",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "cabinetRegular",
-            "printedName": "cabinetRegular(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE14cabinetRegular6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE14cabinetRegular6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cabinetMedium",
-            "printedName": "cabinetMedium(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE13cabinetMedium6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE13cabinetMedium6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cabinetExtraBold",
-            "printedName": "cabinetExtraBold(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE16cabinetExtraBold6ofSizeAbC04FontH0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE16cabinetExtraBold6ofSizeAbC04FontH0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cabinetBold",
-            "printedName": "cabinetBold(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE11cabinetBold6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE11cabinetBold6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "figtreeRegular",
-            "printedName": "figtreeRegular(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE14figtreeRegular6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE14figtreeRegular6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "figtreeMedium",
-            "printedName": "figtreeMedium(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE13figtreeMedium6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE13figtreeMedium6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "figtreeSemiBold",
-            "printedName": "figtreeSemiBold(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE15figtreeSemiBold6ofSizeAbC04FontH0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE15figtreeSemiBold6ofSizeAbC04FontH0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "figtreeBold",
-            "printedName": "figtreeBold(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE11figtreeBold6ofSizeAbC04FontG0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE11figtreeBold6ofSizeAbC04FontG0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "figtreeExtraBold",
-            "printedName": "figtreeExtraBold(ofSize:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIFont",
-                "printedName": "UIKit.UIFont",
-                "usr": "c:objc(cs)UIFont"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FontSize",
-                "printedName": "FitSDK.FontSize",
-                "usr": "s:6FitSDK8FontSizeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE16figtreeExtraBold6ofSizeAbC04FontH0O_tFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE16figtreeExtraBold6ofSizeAbC04FontH0O_tFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "loadAllFonts",
-            "printedName": "loadAllFonts()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIFontC6FitSDKE12loadAllFontsyyFZ",
-            "mangledName": "$sSo6UIFontC6FitSDKE12loadAllFontsyyFZ",
-            "moduleName": "FitSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIFont",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIFont",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }
@@ -2821,146 +691,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 5,
-      "value": "\"New\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 485,
-      "length": 10,
-      "value": "\"Existing\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1301,
-      "length": 12,
-      "value": "\"expires_in\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/GlowGradientBackground.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1981,
-      "length": 3,
-      "value": "850"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/GlowGradientBackground.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2005,
-      "length": 3,
-      "value": "850"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Manager\/SpikeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 160,
-      "length": 9,
-      "value": "\"#FF5443\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 9,
-      "value": "\"#181A1F\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 281,
-      "length": 9,
-      "value": "\"#DDE2EB\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 9,
-      "value": "\"#F0F2F5\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 9,
-      "value": "\"#C50F1F\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 9,
-      "value": "\"#868E9E\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 504,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 338,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 379,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 419,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 663,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 713,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/ConnectViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/ConnectViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 384,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/SwiftUIViews\/WearableView.swift",
       "kind": "IntegerLiteral",
@@ -3291,6 +1021,27 @@
       "value": "\"fitbit\""
     },
     {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "\"New\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 10,
+      "value": "\"Existing\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Models\/LinkDeviceResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
       "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/UIFont.swift",
       "kind": "StringLiteral",
       "offset": 158,
@@ -3352,6 +1103,125 @@
       "offset": 624,
       "length": 21,
       "value": "\"CabinetGrotesk-Bold\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Manager\/SpikeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/GlowGradientBackground.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1981,
+      "length": 3,
+      "value": "850"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/GlowGradientBackground.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 3,
+      "value": "850"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 9,
+      "value": "\"#FF5443\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 9,
+      "value": "\"#181A1F\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 9,
+      "value": "\"#DDE2EB\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 9,
+      "value": "\"#F0F2F5\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 9,
+      "value": "\"#C50F1F\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 9,
+      "value": "\"#868E9E\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/Common\/ColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 663,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/WearableViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 713,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/ConnectViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hitesh\/Desktop\/FitSDK\/FitSDKwholeCode1\/FitSDK\/ViewModels\/ConnectViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
