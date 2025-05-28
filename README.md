@@ -31,7 +31,7 @@ Alternatively, add it to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-username/FitSDK", from: "1.0.0")
+    .package(url: "[https://github.com/tata1mg/fitsdk-ios]", from: "0.0.4")
 ]
 ```
 
