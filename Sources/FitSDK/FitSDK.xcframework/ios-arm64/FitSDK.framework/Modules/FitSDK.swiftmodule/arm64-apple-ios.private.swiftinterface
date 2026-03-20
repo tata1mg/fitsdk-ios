@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FitSDK
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AuthenticationServices
 import Combine
 import Foundation
@@ -15,14 +15,21 @@ import _AuthenticationServices_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
+public struct FitSDKData {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, mobileDeviceId: Swift.String?, referenceId: Swift.String? = nil)
+  #endif
+}
 public protocol FitSDKHandlerDelegate : AnyObject {
   func fitSDKHandlerDidRequestOpen(_ url: Foundation.URL)
 }
-public struct FitSDKData {
-  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, referenceId: Swift.String? = nil)
-}
 @_hasMissingDesignatedInitializers public class FitSDKManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(with controller: UIKit.UINavigationController, delegate: (any FitSDK.FitSDKHandlerDelegate)?, data: FitSDK.FitSDKData)
+  #endif
+  public static func dismiss(from controller: UIKit.UINavigationController, animated: Swift.Bool = true)
+  public static func unlinkDevice() async
+  public static func allowMoreWearablePermissions() async
   @objc deinit
 }
-

@@ -42,47 +42,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JTz7A0vTxZoDoAJe78JpkfKgcG0=
+		Wig3QjqdmAuZvMyfKXRWqYZdKpc=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4WJtPwJ/ndnxYBDdjvIQ2b1eMyE=
+		oFQ+Kt0j/JfStrjrAc0OEXz7NQU=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Q1ueUCtWytSUSqtafK+1F39Rat8=
+		7o5rpI1md+waUiQunmTyoff9XVk=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mlC2Q4EpC7xoX+0ezND2Ina1WGU=
+		l14O93PCzMXyEL85bd2jsZSIXjQ=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q1ueUCtWytSUSqtafK+1F39Rat8=
+		7o5rpI1md+waUiQunmTyoff9XVk=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E+nKhyShhjrqV5pXLaxxSyeGo8I=
+		JDlzh8e4u0ktJTQgfqeMe2mS2ig=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4WJtPwJ/ndnxYBDdjvIQ2b1eMyE=
+		oFQ+Kt0j/JfStrjrAc0OEXz7NQU=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ta6zixoikVKcTcWIWjTTnk0ndQs=
+		MiOAj7tv1fjFF4HGv3oAqpBfStE=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QCaA6F/bZE6mvsNkIT7ydrxShHY=
+		Vp69KyaCtSUWegbQXEi5QbBnJVU=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ta6zixoikVKcTcWIWjTTnk0ndQs=
+		MiOAj7tv1fjFF4HGv3oAqpBfStE=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/aLReBOPDuN9Kh+fmgb6NrIV0RU=
+		7wghlgxUuKAEjvsjR1hfrIMBOuU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -154,70 +154,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nx6MeoBHl1OEOtEeTLJXNxAcJxK5AH9gupF+zhP78Gw=
+			ZR4ZbDAyqh5rD8qfEMpNkh47oTUZ4rvBHc/AE/hK2a4=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oGTlbMMl5CpmFjhgoGztpnQ9Z0zeS6wEbbL2Prv+xnQ=
+			gn9Ca7rbov30d4+DLNDnxfrqJB1+bpmiJmUQlB+Qt6Q=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWRUs7yrD01g4/bY4fhlrgB0/V9QulmdmIo1qHd7sCc=
+			le56YBYHlt1nQZdKKVJv7qlhJ48PavHVN0JCqftD94E=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oGTlbMMl5CpmFjhgoGztpnQ9Z0zeS6wEbbL2Prv+xnQ=
+			gn9Ca7rbov30d4+DLNDnxfrqJB1+bpmiJmUQlB+Qt6Q=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6vWCJJymyyBt6qn0hCX+Df1C6U1ZX+wk7XKuxzckMQ=
+			gBkfh21dy5ziF2Nqbgzlg+gAqfcaJMUi9UfhzqlZRQs=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nx6MeoBHl1OEOtEeTLJXNxAcJxK5AH9gupF+zhP78Gw=
+			ZR4ZbDAyqh5rD8qfEMpNkh47oTUZ4rvBHc/AE/hK2a4=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yh5oo3yMcfMqJuTzwpgzudlSC4JwC3jEYOyJs6A9zqE=
+			byYqgpE2Fvl5FjweQtvSrk5icGEswdFqz4x7zL2l9H0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgQLafuZarjf9wdloO3U2sq96QKYtX2/UmfaSCgld30=
+			2Y83keV4fLHwiwvTQodA/xMGhahZ79hA9SCSbecoEsM=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yh5oo3yMcfMqJuTzwpgzudlSC4JwC3jEYOyJs6A9zqE=
+			byYqgpE2Fvl5FjweQtvSrk5icGEswdFqz4x7zL2l9H0=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fe0KmDXHXhzKlfZ2c8p/2BoQVeMymv9NJlmtzvTgQYQ=
+			QWqmnTZc+FXwQOqCylALIIuZhcj5qFoPBsHaaKnCZt8=
 			</data>
 		</dict>
 	</dict>
