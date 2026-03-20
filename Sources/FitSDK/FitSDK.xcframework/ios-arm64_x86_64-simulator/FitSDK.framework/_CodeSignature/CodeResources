@@ -46,43 +46,43 @@
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oFQ+Kt0j/JfStrjrAc0OEXz7NQU=
+		cDjFsMOeV48YNzP2IPaL/+cIjfg=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7o5rpI1md+waUiQunmTyoff9XVk=
+		ww9l406IOjwh/DAhl3jF1vqcC+Q=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l14O93PCzMXyEL85bd2jsZSIXjQ=
+		TOmbl83w19yiev4ZnJ35zIqqqJE=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7o5rpI1md+waUiQunmTyoff9XVk=
+		ww9l406IOjwh/DAhl3jF1vqcC+Q=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JDlzh8e4u0ktJTQgfqeMe2mS2ig=
+		C3eI7JhqrAMfdCkVLl9VX3T02lU=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oFQ+Kt0j/JfStrjrAc0OEXz7NQU=
+		cDjFsMOeV48YNzP2IPaL/+cIjfg=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MiOAj7tv1fjFF4HGv3oAqpBfStE=
+		vgOEXFM5uqMjpho+wQDuvuROvsQ=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Vp69KyaCtSUWegbQXEi5QbBnJVU=
+		blXlOb6bF1mVEKTlNTpyYz6kAX0=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MiOAj7tv1fjFF4HGv3oAqpBfStE=
+		vgOEXFM5uqMjpho+wQDuvuROvsQ=
 		</data>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7wghlgxUuKAEjvsjR1hfrIMBOuU=
+		h6JOgkTqdYBbuyn/UkCkS4k4za0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -154,70 +154,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZR4ZbDAyqh5rD8qfEMpNkh47oTUZ4rvBHc/AE/hK2a4=
+			Ex9Y3eRZwJuilJDr4DSXIrt4JZORLkSVZuYHSDnIO7Q=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gn9Ca7rbov30d4+DLNDnxfrqJB1+bpmiJmUQlB+Qt6Q=
+			I/nxp1S8U/H+ENmqTdtS3hd85kpS5oYqk2N5kd0UEo8=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			le56YBYHlt1nQZdKKVJv7qlhJ48PavHVN0JCqftD94E=
+			KrAKxKovLxJfm/XqW5KACTVo6Y5q2dqeOBcOEGUbvUc=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gn9Ca7rbov30d4+DLNDnxfrqJB1+bpmiJmUQlB+Qt6Q=
+			I/nxp1S8U/H+ENmqTdtS3hd85kpS5oYqk2N5kd0UEo8=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBkfh21dy5ziF2Nqbgzlg+gAqfcaJMUi9UfhzqlZRQs=
+			bSCJ9YvruUhUyeU/VpKcR1TdAMxcGAbp/f/rFu+IRF8=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZR4ZbDAyqh5rD8qfEMpNkh47oTUZ4rvBHc/AE/hK2a4=
+			Ex9Y3eRZwJuilJDr4DSXIrt4JZORLkSVZuYHSDnIO7Q=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			byYqgpE2Fvl5FjweQtvSrk5icGEswdFqz4x7zL2l9H0=
+			e14gRzbESmrAi6jDd8AvSXaP8SJ8a0IXCij9cO/4OjA=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Y83keV4fLHwiwvTQodA/xMGhahZ79hA9SCSbecoEsM=
+			8cG+6CzixJ4mqd0aggiu94ohP7HMp8yiilb18ATJEI8=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			byYqgpE2Fvl5FjweQtvSrk5icGEswdFqz4x7zL2l9H0=
+			e14gRzbESmrAi6jDd8AvSXaP8SJ8a0IXCij9cO/4OjA=
 			</data>
 		</dict>
 		<key>Modules/FitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QWqmnTZc+FXwQOqCylALIIuZhcj5qFoPBsHaaKnCZt8=
+			IGcqVQ2MlY5j3INs7qMW0RlhTs3E131XO5uMCPY9BJE=
 			</data>
 		</dict>
 	</dict>

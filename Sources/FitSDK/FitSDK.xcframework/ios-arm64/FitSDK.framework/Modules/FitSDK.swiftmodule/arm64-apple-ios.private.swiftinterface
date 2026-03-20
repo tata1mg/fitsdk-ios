@@ -28,8 +28,6 @@ public protocol FitSDKHandlerDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(with controller: UIKit.UINavigationController, delegate: (any FitSDK.FitSDKHandlerDelegate)?, data: FitSDK.FitSDKData)
   #endif
-  public static func dismiss(from controller: UIKit.UINavigationController, animated: Swift.Bool = true)
   public static func unlinkDevice() async
-  public static func allowMoreWearablePermissions() async
   @objc deinit
 }
