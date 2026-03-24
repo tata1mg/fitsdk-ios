@@ -629,17 +629,51 @@
           {
             "kind": "Function",
             "name": "unlinkDevice",
-            "printedName": "unlinkDevice()",
+            "printedName": "unlinkDevice(data:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FitSDKData",
+                "printedName": "FitSDK.FitSDKData",
+                "usr": "s:6FitSDK0A7SDKDataV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FitSDK0A10SDKManagerC12unlinkDeviceyyYaFZ",
-            "mangledName": "$s6FitSDK0A10SDKManagerC12unlinkDeviceyyYaFZ",
+            "usr": "s:6FitSDK0A10SDKManagerC12unlinkDevice4datayAA0A7SDKDataV_tYaFZ",
+            "mangledName": "$s6FitSDK0A10SDKManagerC12unlinkDevice4datayAA0A7SDKDataV_tYaFZ",
+            "moduleName": "FitSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWearableData",
+            "printedName": "getWearableData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FitSDKData",
+                "printedName": "FitSDK.FitSDKData",
+                "usr": "s:6FitSDK0A7SDKDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FitSDK0A10SDKManagerC15getWearableData4datayAA0A7SDKDataV_tYaFZ",
+            "mangledName": "$s6FitSDK0A10SDKManagerC15getWearableData4datayAA0A7SDKDataV_tYaFZ",
             "moduleName": "FitSDK",
             "static": true,
             "declAttributes": [
@@ -1348,7 +1382,7 @@
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/FitSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1961,
+      "offset": 2001,
       "length": 4,
       "value": "true"
     }
