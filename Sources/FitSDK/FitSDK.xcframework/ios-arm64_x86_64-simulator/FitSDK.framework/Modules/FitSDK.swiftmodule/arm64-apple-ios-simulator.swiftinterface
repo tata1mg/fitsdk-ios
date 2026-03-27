@@ -18,7 +18,7 @@ import _SwiftConcurrencyShims
 
 public struct FitSDKData {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, mobileDeviceId: Swift.String?, referenceId: Swift.String? = nil)
+  public init(envName: Swift.String, authToken: Swift.String, visitorId: Swift.String, affiliateSource: Swift.String, mobileDeviceId: Swift.String?, referenceId: Swift.String? = nil)
   #endif
 }
 public protocol FitSDKHandlerDelegate : AnyObject {

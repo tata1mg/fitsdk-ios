@@ -124,13 +124,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(authToken:visitorId:affiliateSource:mobileDeviceId:referenceId:)",
+            "printedName": "init(envName:authToken:visitorId:affiliateSource:mobileDeviceId:referenceId:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FitSDKData",
                 "printedName": "FitSDK.FitSDKData",
                 "usr": "s:6FitSDK0A7SDKDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -181,8 +187,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSource012mobileDeviceG009referenceG0ACSS_S3SSgAItcfc",
-            "mangledName": "$s6FitSDK0A7SDKDataV9authToken9visitorId15affiliateSource012mobileDeviceG009referenceG0ACSS_S3SSgAItcfc",
+            "usr": "s:6FitSDK0A7SDKDataV7envName9authToken9visitorId15affiliateSource012mobileDeviceI009referenceI0ACSS_S4SSgAJtcfc",
+            "mangledName": "$s6FitSDK0A7SDKDataV7envName9authToken9visitorId15affiliateSource012mobileDeviceI009referenceI0ACSS_S4SSgAJtcfc",
             "moduleName": "FitSDK",
             "declAttributes": [
               "AccessControl"
@@ -1019,251 +1025,258 @@
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 440,
-      "length": 31,
-      "value": "\"https:\/\/dioneapi.1mg.com\/api\/\""
+      "length": 28,
+      "value": "\"https:\/\/%@api.1mg.com\/api\/\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 515,
       "length": 39,
       "value": "\"https:\/\/dione.1mg.com?merchant_token=\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 621,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 678,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 737,
       "length": 17,
       "value": "\"X-Authorization\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 794,
       "length": 15,
       "value": "\"authorization\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 850,
       "length": 18,
       "value": "\"X-HTML-CanRender\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 908,
       "length": 14,
       "value": "\"X-Access-Key\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 963,
       "length": 23,
       "value": "\"1mg_client_access_key\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1029,
       "length": 20,
       "value": "\"x-affiliate-source\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1098,
       "length": 19,
       "value": "\"tata_aig_vitality\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 1166,
       "length": 5,
       "value": "\"1mg\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1211,
+      "offset": 1208,
       "length": 13,
       "value": "\"device-info\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1257,
       "length": 12,
       "value": "\"visitor-id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1306,
       "length": 14,
       "value": "\"X-OS-Version\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1359,
+      "offset": 1356,
       "length": 13,
       "value": "\"X-Device-Id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1411,
+      "offset": 1408,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1450,
+      "offset": 1447,
       "length": 12,
       "value": "\"x-platform\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1497,
+      "offset": 1494,
       "length": 12,
       "value": "\"iOS-19.0.0\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1550,
+      "offset": 1547,
       "length": 20,
       "value": "\"x-mobile-device-id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1630,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1669,
+      "offset": 1666,
       "length": 5,
       "value": "\"all\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1704,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1751,
       "length": 14,
       "value": "\"reference_id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 1836,
       "length": 18,
       "value": "\"affiliate_source\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1890,
       "length": 12,
       "value": "\"visitor_id\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 1938,
       "length": 12,
       "value": "\"auth_token\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 1981,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2020,
+      "offset": 2017,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2100,
+      "offset": 2097,
       "length": 17,
       "value": "\"affiliateSource\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2150,
       "length": 11,
       "value": "\"authToken\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2200,
+      "offset": 2197,
       "length": 11,
       "value": "\"visitorId\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2249,
+      "offset": 2246,
       "length": 13,
       "value": "\"referenceId\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2300,
       "length": 16,
       "value": "\"mobileDeviceId\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2380,
+      "offset": 2350,
+      "length": 9,
+      "value": "\"envName\""
+    },
+    {
+      "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
       "length": 11,
       "value": "\"onemg-fit\""
     },
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/Networking\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2423,
+      "offset": 2463,
       "length": 7,
       "value": "\"https\""
     },
@@ -1382,7 +1395,7 @@
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/FitSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2001,
+      "offset": 2041,
       "length": 4,
       "value": "true"
     }
