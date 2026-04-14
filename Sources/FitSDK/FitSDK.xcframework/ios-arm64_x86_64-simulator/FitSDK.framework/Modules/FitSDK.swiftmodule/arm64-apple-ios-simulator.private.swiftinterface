@@ -29,6 +29,7 @@ public protocol FitSDKHandlerDelegate : AnyObject {
   public static func initialize(with controller: UIKit.UINavigationController, delegate: (any FitSDK.FitSDKHandlerDelegate)?, data: FitSDK.FitSDKData)
   #endif
   public static func unlinkDevice(data: FitSDK.FitSDKData) async
+  public static func configureSDK()
   public static func getWearableData(data: FitSDK.FitSDKData) async
   @objc deinit
 }

@@ -662,6 +662,28 @@
           },
           {
             "kind": "Function",
+            "name": "configureSDK",
+            "printedName": "configureSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FitSDK0A10SDKManagerC09configureB0yyFZ",
+            "mangledName": "$s6FitSDK0A10SDKManagerC09configureB0yyFZ",
+            "moduleName": "FitSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getWearableData",
             "printedName": "getWearableData(data:)",
             "children": [
@@ -1395,7 +1417,7 @@
     {
       "filePath": "\/Users\/hitesh\/fit_connect_ios\/FitSDK\/FitSDK\/FitSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2041,
+      "offset": 1970,
       "length": 4,
       "value": "true"
     }
