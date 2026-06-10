@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://gitlab.com/spike_api/spike-ios-sdk", from: "4.2.41")
+        .package(url: "https://gitlab.com/spike_api/spike-ios-sdk", .exact("4.5.21"))
     ],
     targets: [
         .binaryTarget(
